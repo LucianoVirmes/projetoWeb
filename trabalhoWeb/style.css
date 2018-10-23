@@ -1,0 +1,45 @@
+body{
+	font-family: Verdana, arial;
+	background-color: #7fb0ff;
+	margin: 20px 0 0;
+}
+
+.conteudo{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+nav{
+	width: 100%;
+	background-color: #7fb0ff;
+	float: left;
+}
+
+nav ul{
+	margin-left: 5px; 
+}
+
+nav h1{
+	float: right;
+	margin: 10px;
+}
+
+nav img{
+	float: right;
+}
+
+nav ul li{
+	display: inline;
+	padding: 15px 10px;
+	color: #fff;
+	float: left;
+}
+
+ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul li a:hover{
+	text-shadow: 1px 1px #828282;
+}
