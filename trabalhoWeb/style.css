@@ -21,13 +21,13 @@ nav ul{
 
 nav h1{
 	float: right;
-	margin: 10px;
+	margin-right: 40px;
+	margin-left: 15px;
 	text-shadow:#fff 1px -1px, #fff -1px 1px, #fff 1px 1px, #fff -1px -1px
 }
 
 nav img{
 	float: right;
-	border:1px solid #fff;
 }
 
 nav ul li{
@@ -77,23 +77,28 @@ ul li a:hover{
 	margin-left: 30px;
 	margin-top: 40px;
 	padding: 50px;
+	padding-top: 10px;
 }
 
 .quemSomos h2{
 	text-align: center;
 	font-size: 30px;
 	color: #fff;
-	text-shadow:#828282 1px -1px, #828282 -1px 1px, #828282 1px 1px, #828282 -1px -1px
+	text-shadow:#828282 1px -1px, #828282 -1px 1px, #828282 1px 1px, #828282 -1px -1px;
 }
 
 .desenvolvedor{
 	float: left;
 	width: 260px;
 	padding: 55px;
+	margin-bottom: 40px;
 }
 
 .desenvolvedor img{ 
-	padding: 0px 0px 10px 50px;
+	margin-left: 50px;
+	border-radius: 50%;
+	border:5px solid #fff;
+
 }
 
 .desenvolvedor p{ 
@@ -110,9 +115,152 @@ ul li a:hover{
 }
 
 
+.software h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-shadow:#828282 1px -1px, #828282 -1px 1px, #828282 1px 1px, #828282 -1px -1px;
+	margin-left: 
+}
 
+.explicacao{
+	color: #000;
+	width: 1100px;
+	margin-left: 40px;
+	background-color: #fff;
+	padding-left:50px;
+	padding-right: 50px;
+	padding-top: 30px; 
+	float: left;
+	margin-top: 40px;
+	font-size: 20px;
+	color:#595959;
+	margin-bottom: 80px;
+	text-align: center;
+}
 
+.explicacao p:nth-child(2){
+	text-align: left;
+	margin-left: 20px;
+}
 
+.explicacao ul{
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+.explicacao ul li{
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.demo{
+	margin-left: 95px;
+	padding-top: 50px; 
+}
+
+.telas{
+	float: left;
+	margin-left: 70px;
+	width: 440px;
+	height: 450px;
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.telas:hover{
+	transform: scale(1.05);
+}
+
+.telas img{
+	margin-left: 21px;
+	border: 1px solid #eee;
+	margin-top: 10px;
+}
+
+.telas h3{
+	text-align: center;
+	color: #7fb0ff;
+	font-size: 20px;
+	text-shadow:#eee 1px -1px, #eee -1px 1px, #eee 1px 1px, #eee -1px -1px;
+}
+
+.telas p{
+	text-align: center;
+	color: #828282;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.manual{
+	float: left;
+	width: 100%
+}
+
+.manual h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-shadow:#828282 1px -1px, #828282 -1px 1px, #828282 1px 1px, #828282 -1px -1px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.detalhes{
+	color: #000;
+	width: 1100px;
+	margin-left: 40px;
+	background-color: #fff;
+	padding-left:50px;
+	padding-right: 50px;
+	padding-top: 30px; 
+	float: left;
+	margin-top: 40px;
+	font-size: 20px;
+	color:#595959;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.contato{
+	float: left;
+	width: 100%;
+}
+
+.contato h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-shadow:#828282 1px -1px, #828282 -1px 1px, #828282 1px 1px, #828282 -1px -1px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.rodape{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #33486b;
+	color: #fff;
+	font-size: 15px;
+}
+
+.rodape p a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.rodape p a:hover{
+	color: #7fb0ff;
+}
 
 
 

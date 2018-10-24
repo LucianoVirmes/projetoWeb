@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>BestCar Alugueis</title>
+	<link rel="icon" type="image/png" href="Imagens/icone.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 	<body>
@@ -10,7 +11,6 @@
 			<nav>
 				<div class="conteudo">
 					<ul>
-						<li><a href="#" >Página principal</a></li>
 						<li><a href="#atalhoEmpresa" >Empresa</a></li>
 						<li><a href="#atalhoQuem" >Quem somos?</a></li>
 						<li><a href="#atalhoSoftware" >Software</a></li>
@@ -18,13 +18,13 @@
 						<li><a href="#atalhoContato" >Contato</a></li>
 					</ul>
 					<h1>BestCar</h1>
-					<a href="#"><img alt="#" src="https://via.placeholder.com/100x50"></a>
+					<a href="#"><img alt="#" src="Imagens/icone.png"></a>
 				</div>
 			</nav>	
 		</header>
 		<section class="principal">
 			<div class="apresentacao">
-				<h2>Apresentação da empresa</h2>
+				<h2 id="atalhoEmpresa">Apresentação da empresa</h2>
 				<p>Empresa fundada em 2018 por acadêmicos da Unoesc-Campus Xanxerê do curso TADS-Tecnologia em
 					Análise e desenvolvimento de Sistemas com o objetivo de gerenciar e facilitar o aluguel de 
 					veículos e seu controle. 
@@ -35,17 +35,17 @@
 			<div class="quemSomos">
 				<h2 id="atalhoQuem"> Quem Somos?</h2>
 				<div class="desenvolvedor">
-					<img src="Imagens/everson.jpg">
+					<img src="Imagens/everson.jpg" alt="#">
 					<p>Everson Cesar Signori</p>
 					<address>everson.signori@unoesc.edu.br</address>
 				</div>
 				<div class="desenvolvedor">
-					<img src="Imagens/luciano.jpg">
+					<img src="Imagens/luciano.jpg" alt="#">
 					<p>Luciano Virmes</p>
 					<address>luciano.jp@unoesc.edu.br</address>
 				</div>
 				<div class="desenvolvedor">
-					<img src="Imagens/Theylor.png">
+					<img src="Imagens/Theylor.png" alt="#">
 					<p>Theylor Marmitt</p>
 					<address>theylor.marmitt@unoesc.edu.br</address>
 				</div>
@@ -56,44 +56,83 @@
 			<div class="conteudo"> 
 				<h2 id="atalhoSoftware">Software</h2>
 				<div class="explicacao">
-					
+					<p>O BestCar alugueis foi desenvolvido com o objetivo de facilitar a vida de agências de alugueis de carros e seus funcionários através de um controle de veículos, funcionarios e clientes, o gerenciamento dos mesmos em filiais, além de garantir uma flexibilidade do gerente em relação aos tipos de alugueis disponíveis, suas taxas, cobranças e tipos de pagamento aceito na hora da devolução.</p>
+					<p>Dispondo de uma gama de funcionalidades, dentre elas:</p>
+					<ul>
+						<li>Tela de login</li>
+						<li>Atualizar cliente</li>
+						<li>Mudar veículo ou funcionário de filial</li>
+						<li>Telas de busca na hora de realizar aluguel</li>
+						<li>Vizualizar alugueis em atividade</li>
+						<li>Vizualizar carros disponívies</li>
+						<li>Reajuste de de todas as taxas de tipo de aluguel</li>
+						<li>Relatórios</li>
+					</ul>
+				</div>
+				<h2>Demo de nossas principais telas</h2>
+				<div class="demo">					
+					<div class="telas">
+						<a href="#"><img src="Imagens/login.png"></a>
+						<h3>Tela de login</h3>
+						<p>O funcionário deve entrar com seu email e senha.</p>
+					</div>
+					<div class="telas">
+						<a href="#"><img alt="#" src="Imagens/cadastroAluguel.png"></a>
+						<h3>Tela aluguel</h3>
+						<p>Possibilita a realização de aluguel, com o auxilio de botões de busca.</p>
+					</div>
+					<div class="telas">
+						<a href="#"><img alt="#" src="Imagens/cadastroVeiculo.png"></a>
+						<h3>Tela cadastro de veículo</h3>
+						<p>Permite a adição de um novo veículo no sistema.</p>
+					</div>
+					<div class="telas">
+						<a href="#"><img alt="#" src="Imagens/gerenciarFuncionario.png"></a>
+						<h3>Tela gerência de funcionário</h3>
+						<p>Proporciona mudança de dados, senha e transferência de filial.</p>
+					</div>
+					<div class="telas">
+						<a href="#"><img alt="#" src="Imagens/gerenciarTipoAluguel.png"></a>
+						<h3>Tela gerência de tipo de aluguel</h3>
+						<p>Concede a adição de novos tipos, assim como mudança de valores e taxas.</p>
+					</div>
+					<div class="telas">
+						<a href="#"><img alt="#" src="Imagens/aluguelEmAtividade.png"></a>
+						<h3>Tela alugueis em atividade</h3>
+						<p>Mostra os alugueis pendentes, mostrando carro, data do aluguel, o tipo e o cliente.</p>
+					</div>
 				</div>
 			</div>
 		</section>
-		<section class="Manual">
-			<h2 id="atalhoManual">Manual</h2>
-			<div class="detalhes">
-				<a href="#">
-					<div class="detalhe">
-						<img src="">
-					</div>
-				</a>
-				<a href="#">
-					<div class="detalhe">
-						<img src="">
-					</div>
-				</a>
-				<a href="#">
-					<div class="detalhe">
-						<img src="">
-					</div>
-				</a>
-				<a href="#">
-					<div class="detalhe">
-						<img src="">
-					</div>
-				</a>
-			</div>
+		<section class="manual">
+			<div class="conteudo">
+				<h2 id="atalhoManual">Manual</h2>
+				<div class="detalhe">
+					<img src="" alt="#">
+				</div>
+				<div class="detalhe">
+					<img src="" alt="#">
+				</div>
+				<div class="detalhe">
+					<img src="" alt="#">
+				</div>
+				<div class="detalhe">
+					<img src="" alt="#">
+				</div>
+			</div>	
 		</section>
-		<section class="Contato">
+		<section class="contato">
 			<div class="conteudo">
 				<h2 id="atalhoContato">Contato</h2>
+				<div>
+					
+				</div>
 				
 			</div>
 		</section>
 		<footer>
 			<div class="rodape">
-				<p>Desnvolvido por: <a href="#">BestCar Alugueis</a></p>
+				<p>Desenvolvido por: <a href="#">BestCar Alugueis</a></p>
 			</div>
 		</footer>
 	</body>
