@@ -137,6 +137,9 @@
 					<p>Tela devolução.</p>
 				</div>
 				<div class="detalhe">
+					<p>Na hora da devolução o valor final será determinado pela soma do valor do veículo com o valor do aluguel, o resultado dessa conta será adicionado com a multiplicação da taxa de tipo de aluguel com a quilometragem de devolução menos a quilometragem na hora de aluguel dividido por mil. Após a finalização da compra um desconto de tipo de pagamento será calculado encima do resultado final subtraido a porcentagem do aluguel dado.</p>
+				</div>
+				<div class="detalhe">
 					<img src="Imagens/manual/sair.png" alt="#">
 					<p>Caso o funcionário deseje sair e voltar para a tela de login o mesmo poderá ir em configurações e sair.</p>
 				</div>
@@ -146,9 +149,38 @@
 			<div class="conteudo">
 				<h2 id="atalhoContato">Contato</h2>
 				<div>
-					
+					<p>Para saber informações a respeito do software ou solicitar um orçamento entre em contato por um dos emails:</p>
+					<ul>
+						<li><address>everson.signori@unoesc.edu.br</address></li>
+						<li><address>luciano.jp@unoesc.edu.br</address></li>
+						<li><address>theylor.marmitt@unoesc.edu.br</address></li>
+					</ul>
+					<p>ou se preferir preencha o formulário abaixo com seus dados e o que deseja, que entraremos em contato o mais rápido possivel.</p>
+					<form action="file.php" method="post">
+						<fieldset>
+							<legend>Digite seus dados</legend>
+							<div class="formgrupo">
+								<label for="nome">Nome completo:</label>
+								<input type="text" name="nome" id="nome">
+							</div>
+							<div class="formgrupo">
+								<label for="nome">Email:</label>
+								<input type="text" name="email" id="email">
+							</div>
+							<div class="formgrupo">
+								<label for="nome">Telefone:</label>
+								<input type="text" name="telefone" id="telefone">
+							</div>
+						</fieldset>	
+						<div class="formgrupo">		
+							<label class="tituloTextarea" for="obs">Digite sua mensagem:</label>
+							<textarea name="obs" id="obs", cols="144" rows="10">informação que deseja saber</textarea>
+						</div>	
+						<div class="btn">
+							<input type="submit" value="Enviar">
+						</div>
+					</form>	
 				</div>
-				
 			</div>
 		</section>
 		<footer>
