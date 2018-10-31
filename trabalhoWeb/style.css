@@ -43,7 +43,10 @@ ul li a{
 }
 
 ul li a:hover{
-	text-shadow: 1px 1px #000;
+	 text-shadow: -1px -1px 0 #000,  
+    			1px -1px 0 #000,
+    			-1px 1px 0 #000,
+     			1px 1px 0 #000;
 }
 
 .principal{
@@ -55,6 +58,7 @@ ul li a:hover{
 	padding-right: 50px; 
 	float: left;
 	margin-top: 40px;
+
 }
 
 .apresentacao h2{
@@ -143,10 +147,10 @@ ul li a:hover{
 	font-size: 20px;
 	color:#595959;
 	margin-bottom: 80px;
-	text-align: center;
+	text-align: justify;
 }
 
-.explicacao p:nth-child(2){
+.explicacao p:nth-child(odd){
 	text-align: left;
 	margin-left: 20px;
 }
@@ -205,6 +209,31 @@ ul li a:hover{
 	font-size: 16px;
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+.botao{
+	height: 60px;
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	background-color: #ff9d35;
+	color: #000;
+	font-size: 16px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight:bold; 
+	margin-left: 435px;
+	padding: 0 0px;
+}
+
+.botao:hover{
+	border: 2px solid #fff;
+	text-shadow: -1px -1px 0 #fff,  
+    			1px -1px 0 #fff,
+    			-1px 1px 0 #fff,
+     			1px 1px 0 #fff;
 }
 
 .rodape{
