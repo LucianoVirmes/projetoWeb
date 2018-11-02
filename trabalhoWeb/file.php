@@ -10,6 +10,6 @@ $corpo = "
 	Informação: "  .$_POST['obs']. "
 ";
 
-mail('theylor.marmitt@unoesc.edu.br', $assunto , $corpo, 'From: $theylor.marmitt@unoesc.edu.br');
+mail('luciano.virmes18@gmail.com', $assunto , $corpo, 'From: $theylormarmitt@hotmail.com');
 
 ?>
